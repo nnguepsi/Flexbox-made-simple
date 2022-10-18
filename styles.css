@@ -1,4 +1,30 @@
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+
+}
+
+/*.nav-list li {
+  flex-grow: 1;
+  flex-shrink: 1; 
+}*/
+
+
+
+
 /* to help visualize */
+html{
+  background-color: #E6EEF7;
+}
+
 header {
     --border-width: 5px;
   }
